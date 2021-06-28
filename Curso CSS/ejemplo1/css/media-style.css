@@ -1,0 +1,137 @@
+@media screen and (min-width: 961px) {
+    h1 {
+        font-size: 32px;
+        color:black;
+        text-align: center;
+    }
+    
+    .grid-columns-row {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 200px 200px;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .grid-columns-row > div {
+        background-color: transparent;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    
+    .grid-columns-row div p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 960px) {
+    h1 {
+        font-size: 20px;
+        color:brown;
+        text-align: center;
+    }
+    
+    .grid-columns-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 200px 200px;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .grid-columns-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .grid-columns-row div p {
+        font-family:'Times New Roman', Times, serif;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 561px) and (max-width: 720px) {
+    h1 {
+        font-size: 18px;
+        color:coral;
+        text-align: center;
+    }
+    
+    .grid-columns-row {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 200px 200px;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .grid-columns-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .grid-columns-row div p {
+        font-family:sans-serif;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    h1 {
+        font-size: 22px;
+        color:cornflowerblue;
+        text-align: left;
+    }
+    
+    .grid-columns-row {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .grid-columns-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .grid-columns-row div p {
+        font-family:cursive;
+        color: black;
+    }
+}
+
+
+/*
+
+ ** Los media queries reaccionan al adaptar la pantalla a los diferentes tipos de tamaños
+ ** se pueden aplicar por medio de css por @media ** o directamente desde la etiqueta link
+ ** pasandole la condiciòn de tamaños por medio de la propiedad media=""
+
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 961px)" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 721px) and (max-width: 960px)" href="css/style-lg.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 561px) and (max-width: 720px)" href="css/style-md.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 560px)" href="css/style-sm.css" />
+*/

@@ -1,0 +1,250 @@
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <title>Ejemplo de css media Queries</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Aplicando tamaños media queries por la propiedad media -->
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 961px)" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 721px) and (max-width: 960px)" href="css/style-lg.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 561px) and (max-width: 720px)" href="css/style-md.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 560px)" href="css/style-sm.css" />
+
+        <!-- Aplicando tamaños media queries por solo css -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/media-style.css" /> -->
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <!-- link rel="stylesheet" type="text/css" href="css/social-media.css" /-->
+
+        <style>
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            
+            .fa:hover {
+                opacity: 0.7;
+            }
+            
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+            
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            
+            .fa-google {
+                background: #dd4b39;
+                color: white;
+            }
+            
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            
+            .fa-youtube {
+                background: #bb0000;
+                color: white;
+            }
+            
+            .fa-instagram {
+                background: #125688;
+                color: white;
+            }
+            
+            .fa-pinterest {
+                background: #cb2027;
+                color: white;
+            }
+            
+            .fa-snapchat-ghost {
+                background: #fffc00;
+                color: white;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+            
+            .fa-skype {
+                background: #00aff0;
+                color: white;
+            }
+            
+            .fa-android {
+                background: #a4c639;
+                color: white;
+            }
+            
+            .fa-dribbble {
+                background: #ea4c89;
+                color: white;
+            }
+            
+            .fa-vimeo {
+                background: #45bbff;
+                color: white;
+            }
+            
+            .fa-tumblr {
+                background: #2c4762;
+                color: white;
+            }
+            
+            .fa-vine {
+                background: #00b489;
+                color: white;
+            }
+            
+            .fa-foursquare {
+                background: #45bbff;
+                color: white;
+            }
+            
+            .fa-stumbleupon {
+                background: #eb4924;
+                color: white;
+            }
+            
+            .fa-flickr {
+                background: #f40083;
+                color: white;
+            }
+            
+            .fa-yahoo {
+                background: #430297;
+                color: white;
+            }
+            
+            .fa-soundcloud {
+                background: #ff5500;
+                color: white;
+            }
+            
+            .fa-reddit {
+                background: #ff5700;
+                color: white;
+            }
+            
+            .fa-rss {
+                background: #ff6600;
+                color: white;
+            }
+        </style>
+    </header>
+
+    <body>
+        <div class="header shadow-bottom">
+            <div style="width: 50%">
+                <h1 class="title">Template de ejemplo CSS</h1>
+            </div>
+            <div style="width: 50%; display: flex; justify-content: flex-end; align-self: center; margin-right: 10px;">
+                <label style="padding-top: 10px;">Search:</label>
+                <input style="margin-left: 10px;" type="text" placeholder="make your search here." />
+            </div>
+        </div>
+
+        <div class="banner-container">
+            <img class="banner-img" src="https://dummyimage.com/1900x1200/b8b2b8/fff.png">
+        </div>
+
+        <div class="middle-text-container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <br />
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+        </div>
+
+
+        <!-- 
+             * Tipos de vistas *
+
+             Para crear una buena interfaz ergonomica que se adapte a todos los tipos de dispositivos
+             tendremos que saber cuales son los tamaños indicados para saber donde apunta nuestra interfaz
+
+             Las interfaces no son iguales para todos los tipos de dispositivos por ejemplo
+             un pagina para un ordenador con pantalla de 1200x900px no es igual al de una tablet
+             que es de 800x600px ò de un celular que regularmente son de 540x300px
+
+             para esto tenemos que tener bien ubicado nuestro estilo para que se adapte al momento que
+             la pantalla llegue a un tipo de tamaño especifico
+
+             El estandard que se maneja por bootstrap css y varios frameworks de css es de 
+
+             XL (Extra Large) - ancho de pantalla mayor o igual de 1200px
+             LG (Large) - ancho de pantalla mayor o igual de 992px
+             MD (Medium) - ancho de pantalla mayor o igual de 768px
+             SM (Small) - ancho de pantalla mayor o igual de 576px
+             ES (Extra Small) - ancho de pantalla menor de 576px
+
+             En css tenemos los @media screen que nos ayuda a asignar que tipo de tamaño queremos que aplique
+             nuestro codigo en css
+
+             podemos asignar el media screen como metadato en la etiqueta link
+             <link rel="stylesheet" type="text/css" media="screen and (min-width: 961px)" href="css/style.css" />
+
+             o directamente desde el .css podemos dar la instrucciòn que se aplique a cierto tamaño de pantalla
+             @media screen and (min-width: 561px) and (max-width: 720px) {
+                 h1 { color: green }
+             }
+
+         -->
+        <div class="main-container">
+            <div class="grid-columns-row">
+                <div class="p0 card">
+                    <div class="img-card">
+                        <img src="https://dummyimage.com/100x100/b8b2b8/fff.png">
+                    </div>
+                    <p>first column</p>
+                </div>
+                <div class="p0 card">
+                    <div class="img-card" >
+                        <img src="https://dummyimage.com/100x100/b8b2b8/fff.png">
+                    </div>
+                    <p>second column</p>
+                </div>
+                <div class="p0 card">
+                    <div class="img-card" >
+                        <img src="https://dummyimage.com/100x100/b8b2b8/fff.png">
+                    </div>
+                    <p>third column</p>
+                </div>  
+                <div class="p0 card">
+                    <div class="img-card" >
+                        <img src="https://dummyimage.com/100x100/b8b2b8/fff.png">
+                    </div>
+                    <p>fourth column</p>
+                </div> 
+            </div>
+        </div>
+
+        <footer>
+            <div class="grid-footer-row">
+                <div>
+                    <p class="href-style">
+                        example@test-domain.com
+                    </p>
+                </div>
+                <div>
+                    <p style="color: white; font-size: 12px; text-align: justify; font-family: Arial, Helvetica, sans-serif;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>  
+            </div>
+        </footer>
+    </body>
+</html>

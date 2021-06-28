@@ -1,0 +1,137 @@
+h1, label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    border-radius: 50px;
+    border: none;
+    height: 40px
+}
+
+body {
+    margin: 0 !important;
+    background: #ffffff;
+}
+
+p {
+    margin: 0 !important
+}
+
+.shadow-bottom {
+    -webkit-box-shadow: 2px -4px 9px 7px rgba(232,230,230,0.8); 
+    box-shadow: 2px -4px 9px 7px rgba(232,230,230,0.8);
+}
+
+.p0 {
+    padding-top: 0 !important;
+}
+
+.img-card {
+    height: 100px;
+    width: 100%;
+}
+
+.middle-text-container {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.middle-text-container p {
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.main-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid 1px #f5f0f0;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px 8px 9px 1px rgba(0,0,0,0.24); 
+    box-shadow: 0px 10px 13px -7px #000000, 9px 8px 9px 1px rgba(0,0,0,0.24);
+}
+
+.banner-container {
+    width: 100%;
+    height: 500px
+}
+
+.banner-img {
+    width: 100%;
+    height: 500px;
+}
+
+.img-card img {
+    height: 100px;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    border-bottom: solid 1px black;
+    background: #f5f0f0;
+    display: flex;
+}
+
+.card {
+    border: solid 1px #f5f0f0;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px -11px rgba(232,230,230,0.8); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px -11px rgba(232,230,230,0.8);
+}
+
+
+footer {
+    margin-top: 50px;
+    height: 150px;
+    min-height:50px; 
+    background:black; 
+}
+
+footer p {
+    color: white;
+}
+
+h1.title {
+    color:black;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 10px
+}
+
+h1.title:active {
+    color:cornflowerblue;
+    animation: animateTitle .1000s;
+    font-size: 40px;
+}
+
+@keyframes animateTitle {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+}
+
+p.href-style {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.href-style:hover {
+    color: cornflowerblue;
+}
+
+/*
+    CSS media types
+
+    
+
+*/
