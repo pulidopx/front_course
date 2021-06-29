@@ -8,11 +8,19 @@
     .grid-columns-row {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 200px;
         grid-gap: 10px;
         background-color: transparent;
         padding: 10px;
         margin-top: 20px;
+    }
+    
+    .grid-footer-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
     }
     
     .grid-columns-row > div {
@@ -22,6 +30,14 @@
         font-size: 30px;
         border-radius: 5px;
         margin-top: 30px;
+    }
+    
+    .grid-footer-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 30px;
     }
     
     .grid-columns-row div p {
@@ -40,11 +56,19 @@
     .grid-columns-row {
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 200px;
         grid-gap: 10px;
         background-color: transparent;
         padding: 10px;
         margin-top: 20px;
+    }
+    
+    .grid-footer-row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: transparent;
+        padding: 10px;
     }
     
     .grid-columns-row > div {
@@ -52,6 +76,22 @@
         border-radius: 5px;
         text-align: center;
         padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .grid-footer-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 30px;
+    }
+    
+    .grid-footer-row > div {
+        background-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px 20px;
         font-size: 30px;
     }
     
