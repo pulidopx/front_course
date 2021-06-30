@@ -78,6 +78,7 @@ p {
     display: flex;
 }
 
+/*  */
 .card {
     border: solid 1px #f5f0f0;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px -11px rgba(232,230,230,0.8); 
