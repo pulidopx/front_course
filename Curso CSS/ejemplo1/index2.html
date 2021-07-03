@@ -1,7 +1,8 @@
 <html>
     <header>
         <!-- Aquí se ponen etiquetas meta, scripts, link -->
-        <!-- mi comentario -->
+        
+        <!-- META -->
         <title>Mi proyecto :)</title>
         <!-- META -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -9,21 +10,101 @@
         <!-- META -->
 
         <!-- CSS -->
+
+        <!-- CSS -->
+
         <style>
             p {
                color: red;
                font-size: 30;
                font-family: Arial, Helvetica, sans-serif;
             }
+
+            .header {}
+
+            #header {
+                width: 100%;
+                display: flex;
+            }
+
+            .item {
+                width: 50%;
+            }
+
+            .section-1 {
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .section-2 {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .navigation a {
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                display: block;
+                padding: 1em;
+                color: black;
+                margin-left: 5px;
+                margin-right: 5px
+            }
+
+            .navigation a:hover {
+                background: #f8f8f8;
+            }
+  
         </style>
         <!-- CSS -->
-
+        
         <!-- Scripts -->
         <script> console.log("mi proyecto en html") </script>
         <!-- Scripts -->
     </header>
 
     <body>
-        <p>HOLA MUNDO</p>
+        <!-- doc flex-box https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+        <!-- Barra superior de la pagina -->
+        <!--  -->
+        <div id="header" class="header"> 
+            <div class="section-1 item">
+                <p>HOLA MUNDO</p>
+            </div>
+            <div class="section-2 item">
+                <div class="navigation">
+                    <a href="#" >Inicio</a>
+                </div>
+
+                <div class="navigation">
+                    <a href="#" >Contacto</a>
+                </div>
+
+                <div class="navigation">
+                    <a href="#" >Login</a>
+                </div>
+            </div>
+        </div>
+        <!-- Barra superior de la pagina -->
+
+
+        <!-- Contenedor Banner -->
+
+        <!-- Contenedor Banner -->
+
+
+        <!-- Contenedor Principal -->
+
+        <!-- Contenedor Principal -->
+
+
+        <!-- Contenedor Principal -->
+
+        <!-- Contenedor Principal -->
+
+        
+        <!-- Contenedor Inferior -->
+
+        <!-- Contenedor Inferior -->
     </body>
 </html>
